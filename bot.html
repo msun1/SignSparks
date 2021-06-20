@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title> SignSparks </title>
+
+<!--Put a favicon-->
+<link rel = "icon" href = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Sign_language_Y.svg/1200px-Sign_language_Y.svg.png" type = "image/x-icon"> 
+
+<style>
+/*Universal selector*/
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+   background-image: url("https://i.pinimg.com/originals/43/bd/05/43bd05281a65524696eeb251f0699e4f.png");
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;  
+   font-family: Comic Sans MS;
+   margin: 0;
+   text-align: center;
+   color:#B70093;
+}
+
+/*Style the top navigation bar*/
+.navbar {
+  overflow: hidden;
+  background-color: #FFC9E8;
+}	
+.navbar a {
+	  float: left;
+	  display: block;
+	  color: white;
+	  text-align: center;
+	  padding: 14px 20px;
+	  text-decoration: none;
+	  transition: all 0.5s;
+	}
+
+/*The header image/color*/
+.header {
+ /*background-image: url("https://cdn.pixabay.com/photo/2019/11/03/23/27/training-4599842_1280.jpg");*/
+  background-image: url("http://s3.amazonaws.com/dailyorange/wp-content/uploads/2020/03/03211049/Image-from-iOS.jpg");
+  background-size: 50%;
+  background-attachment: fixed;
+  /*background-repeat: no-repeat;*/
+  padding: 110px;
+}
+
+/*Font style of the heading text*/
+.header h1 {
+  font-family: fantasy;
+  font-size: 40px;
+}
+
+.discord-button{
+	background-color: #B70093;
+	color: white;
+	border: 8px solid #B70093;
+	border-radius: 8px;
+	font-size: 25px;
+	text-decoration: none;
+	font-family: Comic Sans MS;
+}
+
+.discord-button:hover{
+	cursor: pointer;
+	background-color: #f20fc5;
+	border: 8px solid #f20fc5;
+}
+
+.text{
+   border-style:dotted;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 60%;
+   height: 30%;
+   border: 3px solid powderblue;
+   border-radius: 5px;
+   padding: 0.5%;
+}
+</style>
+</head>
+
+
+<body>
+
+<!--this is the text that goes in the header-->
+<div class="header">
+
+		<div style = "background-color:#FFEEDB; border-style:dotted; border-radius: 10px; width: 300px; margin: auto; padding: 3px;">
+			  <h1 style = "background: -webkit-linear-gradient(#FF40DF, #CD4FFF); -webkit-background-clip: text; -webkit-text-fill-color: transparent; color:purple; font-family:'garamond'">SignSparks</h1>
+		</div>
+</div>
+
+<!--This is my navigation bar-->
+<div class="navbar">
+  <a href="index.html" class="logo"> HOME </a>
+  <a href="courses.html" class = "logo"> OUR COURSES </a>
+  <a href = "signUp.html" class = "logo">SIGN UP NOW!</a>
+  <a href = "bot.html" class = "logo"> MEET SAMMY! </a>
+</div>
+
+<div class = "homepage">
+	<h1>MEET SAMMY</h1>
+	<div class = "text">
+		<p>Meet Sammy: our very own SignSparks discord bot! She can help with any CS, logistical, and ASL questions. What's more is that she has an integrated camera system that identifies sign language and turns it into real-time words for our special hearing impaired students.</p>
+		<p>We believe what makes SignSparks stands out is the fact that we offer interactive ASL live lessions as well as Sammy, who loves to help students answer any questions.</p>
+	</div>
+	<br><br><br>	
+		<a href="https://discord.com/api/oauth2/authorize?client_id=856041040694739004&permissions=325696&scope=bot" class="discord-button">Click Here to Add Sammy to Your Discord Server</a>
+
+<br><br><br>
+	
+</div>
+
+</body>
+</html>

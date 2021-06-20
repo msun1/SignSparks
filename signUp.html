@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> SignSparks </title>
+
+<!--Put a favicon-->
+<link rel = "icon" href = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Sign_language_Y.svg/1200px-Sign_language_Y.svg.png" type = "image/x-icon"> 
+
+<style>
+/*Universal selector*/
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+   background-image: url("https://i.pinimg.com/originals/43/bd/05/43bd05281a65524696eeb251f0699e4f.png");
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;  font-family: Comic Sans MS;
+   margin: 0;
+   text-align: center;
+   color:#B70093;
+}
+
+/*Style the top navigation bar*/
+.navbar {
+  overflow: hidden;
+  background-color: #FFC9E8;
+}	
+.navbar a {
+	  float: left;
+	  display: block;
+	  color: white;
+	  text-align: center;
+	  padding: 14px 20px;
+	  text-decoration: none;
+	  transition: all 0.5s;
+	}
+
+/*The header image/color*/
+.header {
+ /*background-image: url("https://cdn.pixabay.com/photo/2019/11/03/23/27/training-4599842_1280.jpg");*/
+  background-image: url("http://s3.amazonaws.com/dailyorange/wp-content/uploads/2020/03/03211049/Image-from-iOS.jpg");
+  background-size: 50%;
+  background-attachment: fixed;
+  /*background-repeat: no-repeat;*/
+  padding: 110px;
+}
+
+/*Font style of the heading text*/
+.header h1 {
+  font-family: fantasy;
+  font-size: 40px;
+}
+
+.courseBtn{
+  background-color: #D189FF;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border: 4px double #cccccc;
+  border-radius: 20px;
+  font-size: 20px;
+  transition: all 0.5s;
+  margin: 5px;
+  width: 200px;
+}
+
+.courseBtn:hover {
+   background-color: #8FEDD7;
+}
+
+</style>
+</head>
+
+
+<body>
+
+<!--this is the text that goes in the header-->
+<div class="header">
+
+		<div style = "background-color:#FFEEDB; border-style:dotted; border-radius: 10px; width: 300px; margin: auto; padding: 3px;">
+			  <h1 style = "background: -webkit-linear-gradient(#FF40DF, #CD4FFF); -webkit-background-clip: text; -webkit-text-fill-color: transparent; color:purple; font-family:'garamond'">SignSparks</h1>
+		</div>
+</div>
+
+<!--This is my navigation bar-->
+<div class="navbar">
+  <a href="index.html" class="logo"> HOME </a>
+  <a href="courses.html" class = "logo"> OUR COURSES </a>
+  <a href = "signUp.html" class = "logo">SIGN UP NOW!</a>
+  <a href = "bot.html" class = "logo"> MEET SAMMY! </a>
+</div>
+
+<div class = "homepage">
+	<h1>SIGN UP NOW</h1>
+<img style = "width:80px;" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Sign_language_Y.svg/1200px-Sign_language_Y.svg.png">
+
+</div>
+<div class = "sigup-form">
+	<h3>Interested in taking one of our courses? Please sign up below. <br> These live sessions are specifically offered in American Sign Language! </h3>
+	<form>
+		<legend>Sign Up Here</legend>
+		<label for="Fname">First Name:</label>
+			<input type="text" id="Fname" name="fname"/>
+		<br />
+		<label for="Lname">Last Name:</label>
+			<input type="text" id="Lname" name="lname"/>
+		<br />
+		<br />
+		<label for="course">Courses:</label><br />
+		<input type="checkbox" id="course1" name="course1"/>
+			<label for="Computer Science">Computer Science</label>
+			<br />
+		<input type="checkbox" id="course2" name="course2"/>
+			<label for="JavaScript">JavaScript</label>
+			<br />
+		<input type="checkbox" id="course3" name="course3"/>
+			<label for="Java">Java</label>
+			<br />
+		<input type="checkbox" id="course4" name="course4"/>
+			<label for="Python">Python</label>
+			<br />
+			<br />
+	
+		<label for="course">Schedules:</label><br />
+		<p><i>Note: All times are in Central Standard Time Zone</i></p>
+		<input type="checkbox" id="days1" name="days1"/>
+			<label for="monday/wednesday">Monday/Wednesday,  3pm - 6pm CST </label><br />
+		<input type="checkbox" id="days2" name="days2"/>
+			<label for="tuesday/thursday">Tuesday/Thursday,  3pm - 6pm CST </label><br />
+		<input type="checkbox" id="days3" name="days3"/>
+			<label for="weekdays">Monday - Thursday,  3pm - 6pm CST </label><br />
+		<input type="checkbox" id="days4" name="days4"/>
+			<label for="fridays">Fridays,  2:30pm - 5:30pm CST </label><br />
+		<br />
+		<section>Do You Need Courses in ASL?</section>
+		<label for="yes">Yes</label>
+			<input type="radio" id="yes" name="yes" value="yes"/>
+		<label for="no">No</label>
+			<input type="radio" id="no" name="no" value="no"/>
+		<br />
+		<section></section><br>
+<!--submit button-->
+	<form action = "index.html">
+        <input class = "courseBtn" type="submit" value="Submit"><br><br>
+	</form>
+</div>
+
+</body>
+</html>
